@@ -101,7 +101,7 @@ print("\nРезультати R&D дослідження:")
 print(df_res.to_string(index=False))
 
 best_model = df_res.loc[df_res['Score'].idxmin()]
-print(f"\n🏆 Переможець: {best_model['Name']}")
+print(f"\nПереможець: {best_model['Name']}")
 
 #Візуалізація
 fig, ax1 = plt.subplots(figsize=(10, 5))
