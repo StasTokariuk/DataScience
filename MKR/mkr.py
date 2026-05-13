@@ -5,7 +5,7 @@ from sklearn.metrics import mean_squared_error
 matplotlib.use('TkAgg')
 
 
-# клас для реалізації рекурентного експоненційного згладжування
+# клас для реалізації рекурентного згладжування
 class RecursiveEMAFilter:
 
     def __init__(self, alpha: float):
